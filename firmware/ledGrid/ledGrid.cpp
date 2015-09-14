@@ -3,8 +3,8 @@
 #include "ledGrid.h"
 
 
-int rowPins[rows]={3,4,5,2};
-int colPins[cols]={7,8,9,10};
+int rowPins[rows]={4,5,6,7};
+int colPins[cols]={8,9,11,12};
 int pinmode[15];
 void setmode(){
   for (int i = 0; i < rows; i++){
